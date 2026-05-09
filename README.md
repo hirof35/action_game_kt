@@ -9,3 +9,4 @@ if (vy > 0 && y < enemy.y - 10) {
     enemy.isAlive = false 
 }
 3. ゲームループ (60FPS)javax.swing.Timer を使用して16ms間隔で actionPerformed を呼び出し、滑らかな描画更新（60FPS相当）を行っています。📂 コード構造Enemy: 雑魚キャラクターの定義と描画。Boss: ボスの移動アルゴリズムと体力(HP)管理。MarioGame: 入力管理、衝突判定、レンダリングの中心となるメインクラス。📝 ライセンスこのプロジェクトは MITライセンス の下で公開されています。
+<img width="976" height="552" alt="スクリーンショット 2026-05-09 193902" src="https://github.com/user-attachments/assets/6f4fe6f4-15a6-4160-abe4-a06e776a372a" />
